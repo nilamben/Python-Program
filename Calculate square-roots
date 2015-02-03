@@ -1,0 +1,12 @@
+# calculate sqare roots for given number range
+import math 
+def main():
+    print("Calculating sqare roots for following numbers!")
+    a =(eval(input("Enter starting loop number X =:")))
+    b =(eval(input("Enter ending loop number Y =:")))
+    print("Number  Sqare roots")
+    for i in (range(a,b+1,+1)):
+       result = math.sqrt(i)
+       print (i,"     ",result)
+
+main()
